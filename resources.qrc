@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/plugins/NaviDataGeocoder" >
+        <file>icon.png</file>
+    </qresource>
+
+    <qresource prefix="/plugins/NaviDataGeocoder" >
+        <file>location.png</file>
+    </qresource>
+</RCC>
