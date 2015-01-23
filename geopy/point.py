@@ -5,15 +5,15 @@
 
 import re
 from itertools import islice
-from geopy import util, units
-from geopy.format import (
+from . import util, units
+from .format import (
     DEGREE,
     PRIME,
     DOUBLE_PRIME,
     format_degrees,
     format_distance,
 )
-from geopy.compat import string_compare
+from .compat import string_compare
 
 
 POINT_PATTERN = re.compile(r"""

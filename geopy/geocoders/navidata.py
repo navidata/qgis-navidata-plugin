@@ -2,13 +2,13 @@
 :class:`.NaviData` is the NaviData.pl geocoder.
 """
 
-from geopy.compat import urlencode, string_compare
-from geopy.location import Location
-from geopy.point import Point
-from geopy.util import logger
-from geopy.geocoders.base import Geocoder, DEFAULT_TIMEOUT, DEFAULT_SCHEME
+from ..compat import urlencode, string_compare
+from ..location import Location
+from ..point import Point
+from ..util import logger
+from .base import Geocoder, DEFAULT_TIMEOUT, DEFAULT_SCHEME
 
-from geopy.exc import (
+from ..exc import (
     GeocoderQueryError,
     GeocoderQuotaExceeded,
 )

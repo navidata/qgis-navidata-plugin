@@ -8,7 +8,7 @@ import types
 
 
 sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
-from geopy import geocoders
+from .geopy import geocoders
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 

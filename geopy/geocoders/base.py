@@ -6,7 +6,7 @@ from ssl import SSLError
 from socket import timeout as SocketTimeout
 import json
 
-from geopy.compat import (
+from ..compat import (
     string_compare,
     HTTPError,
     py3k,
@@ -16,8 +16,8 @@ from geopy.compat import (
     URLError,
     install_opener,
 )
-from geopy.point import Point
-from geopy.exc import (
+from ..point import Point
+from ..exc import (
     GeocoderServiceError,
     ConfigurationError,
     GeocoderTimedOut,
@@ -28,7 +28,7 @@ from geopy.exc import (
     GeocoderUnavailable,
     GeocoderParseError,
 )
-from geopy.util import decode_page
+from ..util import decode_page
 
 
 __all__ = (

@@ -2,8 +2,8 @@
 Formatting...
 """
 
-from geopy import units
-from geopy.compat import py3k
+from . import units
+from .compat import py3k
 
 if py3k:
     unichr = chr # pylint: disable=W0622

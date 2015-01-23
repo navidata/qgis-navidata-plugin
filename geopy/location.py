@@ -2,8 +2,8 @@
 :class:`.Location` returns geocoder results.
 """
 
-from geopy.point import Point
-from geopy.compat import string_compare, py3k
+from .point import Point
+from .compat import string_compare, py3k
 
 
 class Location(object): # pylint: disable=R0903,R0921
